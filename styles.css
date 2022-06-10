@@ -1,0 +1,50 @@
+.sign-canvas {
+    top: 30% !important;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.signin {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+main {  
+    background-color: #F8D210;
+    flex: 1;
+}
+
+.flex-md-equal > * {
+    flex: 1;
+}
+
+#banner {
+    background: url("./img/banner.svg") no-repeat center;
+    background-size: 30%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#banner-texto {
+   text-align: center;
+   width: 35rem;
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+}
+
+#banner-texto:nth-child(2){
+    text-align: left;
+}
+
+#banner div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
