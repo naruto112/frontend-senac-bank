@@ -1,4 +1,13 @@
-.sign-canvas {
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .sign-canvas {
     top: 30% !important;
     height: 20%;
     border-radius: 20px;
@@ -10,16 +19,76 @@
     align-items: center;
     justify-content: center;
     height: 80%;
+} */
+
+.acesse {
+    font-weight: 300;
+}
+
+.qrcode {
+    font-weight: 700;
+}
+
+.offcanvas-body div {
+    margin-top: 30px;
+}
+
+.machine-learning {
+    width: 60%;
+}
+
+.startup {
+    width: 60%;
+}
+
+.lock {
+    width: 30px;
+    height: 35px;
 }
 
 main {  
     background-color: #F8D210;
-    flex: 1;
 }
 
-.flex-md-equal > * {
-    flex: 1;
+main div:first-of-type {
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+@media only screen and (max-width: 768px) {
+    main div div div div h2 {
+        margin-top: 100px;
+    }
+
+    main div div div div{
+        margin-bottom: 20px;
+    }
+
+    main div div div div{
+        margin-bottom: 20px;
+    }
+
+    .mobile-card {
+        width: 80% !important;
+    }
+    .mobile {
+        margin-top: -100px;
+    }
+
+    .flex-md-equal > * {
+               
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+
 
 #banner {
     background: url("./img/banner.svg") no-repeat center;
@@ -47,4 +116,12 @@ main {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.display-5 {
+    font-weight: 700!important;
+}
+
+.lead {
+    font-weight: 700!important;
 }
